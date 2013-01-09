@@ -3,6 +3,9 @@
 hr {width: 100%; margin-top: 10px;}
 body {background-color: #F5F5F5; //#B5E7DD; background-position: 50% 50%; font-family: Verdana;
 font-size: 11px;}
-textarea {max-width: 100%; max-height: 100px; height: 100px; margin-top: 5px; margin-bottom: 5px;}
+textarea {max-width: 100%; width: 100%; max-height: 100px; height: 100px; margin-top: 5px; margin-bottom: 5px;}
 form {margin-top: 5px; margin-bottom: 5px;}
 .tijdinput {width: 50px;}
+a {text-decoration: none;}
+a:visited {color: black;}
+a:hover {color: blue; text-decoration: none;}

@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="openbareAgenda.css"/>
+	<title>
+		activiteit aanmaken 
+	</title>
+</head>
+
+
+<body>
+  <div id="container" class="container">
+    <div class="top-line">
+    <hr>
+    </div>
+	<button id="agendabutton">Agenda</button>
+	<br>
+	<hr>
+		<form action="">
+			Titel: <input type ="text" name="Titel"><br>
+		</form>
+	
+	Activiteit details:
+	<br>	
+	<textarea NAME="tekstvak" ROWS="4" COLS="50" maxlength="140"></textarea>
+	
+	<a style="fontsize:11px"; font-family:"Verdana">Doelgroep: </a>
+	<select>
+      <ul>
+        <option>Alle berichten</option>
+        <option>Aandeelhouders</option>
+        <option>Klanten</option>
+        <option>Werknemers</option>
+      </ul>
+    </select>
+		<form action="">
+			Begintijd: <input type="text" name="Begintijd">
+			Eindtijd: <input type="text" name="Eindtijd">
+		</form>
+	<a style="fontsize:11px"; font-family:"Verdana">Herhaal afspraak: </a>
+	<select>
+      <ul>
+        <option>Dagelijks</option>
+        <option>Wekelijks</option>
+        <option>Maandelijks</option>
+        <option>Jaarlijks</option>
+      </ul>
+    </select>
+	<hr>
+	</div>
+</body>
+
+</html>

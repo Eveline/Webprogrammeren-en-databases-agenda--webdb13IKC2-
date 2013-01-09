@@ -12,3 +12,4 @@ select {margin-left: 0px;}
 p {font-family: Verdana; font-size: 10px; margin-left: 0px;}
 td {height: 450px; padding-left: 10px; font-family: Verdana; font-size: 10px; }
 th {font-family:}
+.tablecaption {font-family: serif; font-size: 15px; text-align: left; margin-bottom: 5px;}

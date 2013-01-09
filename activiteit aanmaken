@@ -7,18 +7,17 @@
 	</title>
 </head>
 
-
 <body>
   <div id="container" class="container">
     <div class="top-line">
     <hr>
     </div>
-	<button id="agendabutton">Agenda</button>
+	<button id="agendabutton"><a href="file:///Users/timlorent/Documents/UvA/Semester%201/Periode%203/Webprogrammeren%20en%20Databases/Openbare%20agenda.html">Agenda</a></button>
 	<br>
 	<hr>
 		<form action="">
 			Titel: <input type ="text" name="Titel" maxlength="21" style="margin-left: 15px"><br>
-			Datum: <input type="date" name="datum">
+			Datum: <input type="date" name="datum" maxlength="10">
 		</form>
 
 	Activiteit details:<br>

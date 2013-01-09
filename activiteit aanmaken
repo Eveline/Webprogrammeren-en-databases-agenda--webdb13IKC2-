@@ -1,9 +1,9 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
-  <link type="text/css" rel="stylesheet" href="openbareAgenda.css"/>
+  <link type="text/css" rel="stylesheet" href="activiteit.css"/>
 	<title>
-		activiteit aanmaken 
+		Activiteit aanmaken
 	</title>
 </head>
 
@@ -17,25 +17,23 @@
 	<br>
 	<hr>
 		<form action="">
-			Titel: <input type ="text" name="Titel"><br>
+			Titel: <input type ="text" name="Titel" maxlength="21" style="margin-left: 15px"><br>
+			Datum: <input type="date" name="datum">
 		</form>
-	
-	Activiteit details:
-	<br>	
-	<textarea NAME="tekstvak" ROWS="4" COLS="50" maxlength="140"></textarea>
-	
-	<a style="fontsize:11px"; font-family:"Verdana">Doelgroep: </a>
+
+	Activiteit details:<br>
+	<textarea NAME="tekstvak" ROWS="4" COLS="50" maxlength="300"></textarea><br>
+	Doelgroep:
 	<select>
       <ul>
-        <option>Alle berichten</option>
         <option>Aandeelhouders</option>
         <option>Klanten</option>
         <option>Werknemers</option>
       </ul>
     </select>
 		<form action="">
-			Begintijd: <input type="text" name="Begintijd">
-			Eindtijd: <input type="text" name="Eindtijd">
+			Begintijd: <input type="text" name="Begintijd" class="tijdinput">
+			Eindtijd: <input type="text" name="Eindtijd" class="tijdinput">
 		</form>
 	<a style="fontsize:11px"; font-family:"Verdana">Herhaal afspraak: </a>
 	<select>

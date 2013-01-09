@@ -4,8 +4,8 @@ hr {width: 100%; margin-top: 10px;}
 body {background-color: #F5F5F5; //#B5E7DD; background-position: 50% 50%; font-family: Verdana;
 font-size: 11px;}
 .formMargin {margin-top: 10px; }
-form {width: 250px; padding: 20px; border: 1px solid black; border-radius: 15px; margin-top: 10px;}
-.loginform {width: 230px; background: white; padding: 6px; margin-bottom: 5px; 
+form {width: 260px; padding: 20px; border: 1px solid black; border-radius: 15px; margin-top: 10px;}
+.loginform {width: 245px; background: white; padding: 6px; margin-bottom: 5px; 
   border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;
     border-bottom: 1px solid black;}
-h4 {margin-left: 5px; margin-bottom: auto;}
+h4 {margin-bottom: auto;}

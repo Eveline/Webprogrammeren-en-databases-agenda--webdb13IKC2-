@@ -1,0 +1,16 @@
+body {background-color: #F5F5F5; //#B5E7DD; background-position: 50% 50%;}
+form {font-family: Verdana; font-size: small; margin-top: 10px;}
+table {margin-top: 30px; margin-bottom: 30px; width: 100%; background-color: white;}
+hr {width: 100%;}
+.container {width: 960px; height:100%; margin: auto;}
+.content {height: 100%;}
+.buttonCentre {margin-left: 0px}
+.top-line {margin-top: 20px;}
+.lower-line {margin-bottom: 10px;}
+.signIn {float: right;}
+select {margin-left: 0px;}
+p {font-family: Verdana; font-size: 10px; margin-left: 0px;}
+td {height: 450px; padding-left: 10px; font-family: Verdana; font-size: 10px; }
+th {font-family:}
+textarea {max-width:300px; max-height:100px; }
+#agendabutton {float: right; }

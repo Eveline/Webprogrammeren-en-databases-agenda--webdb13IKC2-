@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link type="text/css" rel="stylesheet" href="openbareAgenda.css"/>
+	<link type="text/css" rel="stylesheet" href="activiteitgoedkeuren.css"/>
 	<title>Activiteit goedkeuren</title>
 </head>
 
@@ -10,23 +10,24 @@
     <div class="top-line">
       <hr>
     </div>
-   	<a href ="http://localhost:8000/Openbare%20agenda.html"><p> Agenda </p> </a>
+   	<button id="agendabutton"><a href="file:///Users/timlorent/Documents/UvA/Semester%201/Periode%203/Webprogrammeren%20en%20Databases/Openbare%20agenda.html">Agenda</a></button>
     <div class:"bottom-line">
       <hr>
     </div>
     <div class="content">
  
     <form action="activiteit aanmaken.html" method="display">
-	Activiteit:<br />
-	<textarea> </textarea><br />
+	Activiteit:
+	<textarea></textarea>
 	</form>
 	
-	<br>
 	<form action="activiteit aanmaken.html" method="display">
-	Feedback:<br />
-    <textarea> </textarea><br />
+	Feedback:
+	<textarea maxlength="375"></textarea>
 	</form>
-	
-	<button>Bevestig</button>
-	<button>Afkeuren</button>
+	<hr>	
+	<button type="button" onclick="alert('Activiteit goedgekeurd')">Bevestig</button>
+	<button type="button" onclick="alert('Activiteit afgekeurd')">Afkeuren</button>
 	<hr>
+</body>
+<html>

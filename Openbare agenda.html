@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link type="text/css" rel="stylesheet" href="openbareAgenda.css"/>
-	<title>
-		Agenda
-	</title>
+<link type="text/css" rel="stylesheet" href="openbareAgenda.css"/>
+<title>
+Agenda
+</title>
+<style>
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#F5F5F5;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   bottom:0;
+   width:100%;
+   height:100%;
+   height:140px;   /* Height of the footer */
+   background:#696969;
+}
+</style>
 </head>
 
 <body>
+<div id="header"></div>
   <div id="container" class="container">
     <div class="top-line">
       <hr>
@@ -29,12 +56,11 @@
     <button class="buttonCentre">Activiteit toevoegen</button>
     <button class="signIn"><a href="file:///Users/timlorent/Documents/UvA/Semester%201/Periode%203/Webprogrammeren%20en%20Databases/Aanmelden.html" target="_blank">Aanmelden</a>Aanmelden</button></a>
     <div class:"bottom-line">
-      <hr>
+   
     </div>
     <div class="content">
     
       <table border="1">
-      	<caption class="tablecaption"><strong>Week 1:</strong> 31/12/12 - 04/01/13</caption>
         <tr>
           <th>Maandag</th>
           <th>Dinsdag</th>
@@ -49,9 +75,9 @@
           <td>17:00 Borrel</td>
       </table>
     </div>
-    
-    <hr>
+
   </div>
+  <div id="footer"></div>
 </body>
 
 </html>

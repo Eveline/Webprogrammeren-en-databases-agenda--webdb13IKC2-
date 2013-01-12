@@ -10,18 +10,19 @@
 <body>
   <div id="container" class="container">
     <div class="top-line">
+    <strong>Activiteit aanmaken</strong>
     <hr>
     </div>
-	<button id="agendabutton"><a href="file:///Users/timlorent/Documents/UvA/Semester%201/Periode%203/Webprogrammeren%20en%20Databases/Openbare%20agenda.html">Agenda</a></button>
+	<button><a href="file:///Users/timlorent/Documents/UvA/Semester%201/Periode%203/Webprogrammeren%20en%20Databases/Project/Pagina's/Openbare%20agenda.html" target="_blank">Agenda</a></button>
 	<br>
 	<hr>
 		<form action="">
 			Titel: <input type ="text" name="Titel" maxlength="21" style="margin-left: 15px"><br>
-			Datum: <input type="date" name="datum" maxlength="10">
+			Datum: <input type="date" name="datum" maxlength="10" placeholder="dd/mm/jjjj">
 		</form>
 
-	Activiteit details:<br>
-	<textarea NAME="tekstvak" ROWS="4" COLS="50" maxlength="300"></textarea><br>
+	Activiteit details:
+	<textarea NAME="tekstvak" ROWS="4" COLS="50" maxlength="375"></textarea><br>
 	Doelgroep:
 	<select>
       <ul>
@@ -30,11 +31,12 @@
         <option>Werknemers</option>
       </ul>
     </select>
+
 		<form action="">
-			Begintijd: <input type="text" name="Begintijd" class="tijdinput">
-			Eindtijd: <input type="text" name="Eindtijd" class="tijdinput">
+			Begintijd: <input type="text" name="Begintijd" class="tijdinput" maxlength="5" placeholder="00:00">
+			Eindtijd: <input type="text" name="Eindtijd" class="tijdinput" maxlength="5" placeholder="00:00">
 		</form>
-	<a style="fontsize:11px"; font-family:"Verdana">Herhaal afspraak: </a>
+	Herhaal afspraak:
 	<select>
       <ul>
         <option>Dagelijks</option>
@@ -43,6 +45,8 @@
         <option>Jaarlijks</option>
       </ul>
     </select>
+	<hr>
+	<button type="button" onclick="alert('Activiteit verstuurd!')">Versturen</button>
 	<hr>
 	</div>
 </body>

@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link type="text/css" rel="stylesheet" href="aanmelden.css"/>
-	<title>
-		Aanmelden
-	</title>
+	<link type="text/css" rel="stylesheet" href="agenda.css">
+	<title>Inloggen</title>
 </head>
 
 <body>
-	<div id="container" class="container">
-    <div class="content">
-	<h4><strong>Aanmelden</strong></h4>
-	<hr>
-    <form action="">
-    	Email: <input class="loginform" type="text" name="emailUser" placeholder="Email adres"><br>
-    	Wachtwoord: <input class="loginform" type="password" name="wachtwoord" maxlength="15" placeholder="Wachtwoord"><br>
-    	<input type="checkbox" name="gegevens" class="formMargin">Onthoud mijn gegevens<br>
-    	<input type="button" class="formMargin" value="Bevestigen">
-    </form>
-    <hr>
-        Geen account? Registreer <a href="file:///Users/timlorent/Documents/UvA/Semester%201/Periode%203/Webprogrammeren%20en%20Databases/Project/Pagina's/registreren.html">hier</a>.
-    <hr>
-    </div>
-  </div>
+
+<div class="container">
+	<div class="header">
+		<div class="navbar">
+			<ul>
+				<li class="headerlist">Home</li>
+				<li class="headerlist">Agenda</li>
+				<li class="headerlist" style="font-style:italic; text-decoration:none; font-size:18px">Merknaam</li>
+				<li class="headerlist">Inloggen</li>
+				<li class="headerlist">Contact</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="info">
+		<form action="" class="signinform">
+			Email: <input class="loginform" type="text" name="emailUser" placeholder="Email adres"><br>
+    		Wachtwoord: <input class="loginform" type="password" name="wachtwoord" maxlength="10" placeholder="max. 10 karakters"><br>
+    		<input type="checkbox" name="gegevens" class="formMargin">Onthoud mijn gegevens<br>
+    		<input type="button" id="bevestigbutton" value="Aanmelden">
+    		<hr>
+        	Geen account? Registreer <a href="file:///Users/timlorent/Documents/UvA/Semester%201/Periode%203/Webprogrammeren%20en%20Databases/Project/Pagina's/registreren.html">hier</a>.
+    		<hr>
+    	</form>
+    	</div>
+    	<div id="divImage2">
+		</div>
+	</div>
+
+	<div class="footer">
+		<div>
+			<ul>
+				<li class="footerlist">Home</li>
+				<li class="footerlist">Agenda</li>
+				<li class="footerlist">Inloggen</li>
+				<li class="footerlist">Contact</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
 </body>
+
 </html>
